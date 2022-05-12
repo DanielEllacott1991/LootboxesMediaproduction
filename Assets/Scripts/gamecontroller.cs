@@ -16,7 +16,7 @@ public class gamecontroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (messagelookedat > 3)
+        if (messagelookedat > 1)
         {
             //open door
             dooranim.SetBool("DoorOpen", true);
