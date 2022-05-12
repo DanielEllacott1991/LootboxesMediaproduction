@@ -62583,7 +62583,7 @@ GameObject:
   - component: {fileID: 1874821613}
   - component: {fileID: 1874821612}
   m_Layer: 5
-  m_Name: Text
+  m_Name: somethingopened
   m_TagString: messagefoundinfo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62605,8 +62605,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.00002265, y: 97}
-  m_SizeDelta: {x: 174.555, y: 28.228088}
+  m_AnchoredPosition: {x: 0.000012398, y: 94.3}
+  m_SizeDelta: {x: 350.9969, y: 29.4123}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1874821612
 MonoBehaviour:
@@ -62641,7 +62641,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Message found
+  m_Text: Something opened somewhere
 --- !u!222 &1874821613
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -66823,7 +66823,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -12.1, y: 28.2}
+  m_AnchoredPosition: {x: 0.000002861, y: 28.2}
   m_SizeDelta: {x: 339.4949, y: 23.3016}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1982126291
