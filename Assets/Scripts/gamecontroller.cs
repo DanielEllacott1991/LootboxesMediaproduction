@@ -6,6 +6,7 @@ public class gamecontroller : MonoBehaviour
 {
     public int messagelookedat = 0;
     public Animator dooranim;
+    public string messagefoundinfoText;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,7 @@ public class gamecontroller : MonoBehaviour
         {
             //open door
             dooranim.SetBool("DoorOpen", true);
+            GameObject.FindGameObjectWithTag("messagefoundinfo").GetComponent<somethingopened>().text = messagefoundinfoText;
 
         }
 
