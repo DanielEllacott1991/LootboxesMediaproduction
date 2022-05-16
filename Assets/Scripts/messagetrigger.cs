@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class messagetrigger : MonoBehaviour
 {
+    public string messageFoundInfoText;
 
     public GameObject gamecontrollerobject;
 
@@ -26,6 +28,8 @@ public class messagetrigger : MonoBehaviour
             //tell contoller
             gc.messagelookedat += 1;
 
+            GameObject.FindGameObjectWithTag("messagefoundinfo").GetComponent<Text>().text = messageFoundInfoText;
+
 
         }
 
@@ -35,7 +39,7 @@ public class messagetrigger : MonoBehaviour
 
     private void OnTriggerExit()
     {
-
+        GameObject.FindGameObjectWithTag("messagefoundinfo").GetComponent<Text>().text = "";
 
     }
 }
