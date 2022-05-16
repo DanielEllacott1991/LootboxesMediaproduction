@@ -20,7 +20,7 @@ public class gamecontroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (messagelookedat > 2 && DoorOpened == false)
+        if (messagelookedat > 1 && DoorOpened == false)
         {
             //open door
             dooranim.SetBool("DoorOpen", true);
@@ -42,7 +42,7 @@ public class gamecontroller : MonoBehaviour
         Debug.Log("Started Coroutine at timestamp : " + Time.time);
 
         //yield on a new YieldInstruction that waits for 5 seconds.
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(3);
 
         //After we have waited 5 seconds print the time again.
         Debug.Log("Finished Coroutine at timestamp : " + Time.time);
