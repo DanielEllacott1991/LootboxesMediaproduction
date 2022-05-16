@@ -5376,6 +5376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3fe5f52066cf4d1787d876d35ba95e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  messageFoundInfoText: 
   gamecontrollerobject: {fileID: 1962194716}
 --- !u!1001 &152949596
 PrefabInstance:
@@ -11010,6 +11011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3fe5f52066cf4d1787d876d35ba95e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  messageFoundInfoText: 
   gamecontrollerobject: {fileID: 1962194716}
 --- !u!1 &313099471
 GameObject:
@@ -17387,6 +17389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3fe5f52066cf4d1787d876d35ba95e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  messageFoundInfoText: 'Message found '
   gamecontrollerobject: {fileID: 1962194716}
 --- !u!65 &526422843
 BoxCollider:
@@ -19930,6 +19933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3fe5f52066cf4d1787d876d35ba95e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  messageFoundInfoText: 'Message found '
   gamecontrollerobject: {fileID: 1962194716}
 --- !u!65 &616551992
 BoxCollider:
@@ -32128,7 +32132,7 @@ GameObject:
   - component: {fileID: 995420160}
   - component: {fileID: 995420159}
   m_Layer: 0
-  m_Name: text 4
+  m_Name: secret_message
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32212,6 +32216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3fe5f52066cf4d1787d876d35ba95e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  messageFoundInfoText: 'Message found '
   gamecontrollerobject: {fileID: 1962194716}
 --- !u!65 &995420160
 BoxCollider:
@@ -37162,6 +37167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3fe5f52066cf4d1787d876d35ba95e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  messageFoundInfoText: 'Message found '
   gamecontrollerobject: {fileID: 1962194716}
 --- !u!65 &1115916653
 BoxCollider:
@@ -38487,6 +38493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1157974834}
   - component: {fileID: 1157974833}
+  - component: {fileID: 1157974835}
   m_Layer: 0
   m_Name: Wall move up
   m_TagString: Untagged
@@ -38529,6 +38536,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 342
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1157974835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157974832}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d553dd5c9e124c4db6b43f92995a8c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infoText: 
+  messagelookedat: 0
 --- !u!1001 &1158337193
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41262,6 +41283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3fe5f52066cf4d1787d876d35ba95e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  messageFoundInfoText: 
   gamecontrollerobject: {fileID: 1962194716}
 --- !u!1 &1241138447 stripped
 GameObject:
@@ -62641,7 +62663,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Something opened somewhere
+  m_Text: 
 --- !u!222 &1874821613
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -65899,6 +65921,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1962194718}
   - component: {fileID: 1962194717}
+  - component: {fileID: 1962194719}
   m_Layer: 0
   m_Name: game_controler
   m_TagString: Untagged
@@ -65920,6 +65943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   messagelookedat: 0
   dooranim: {fileID: 1157974833}
+  messageFoundInfoText: Something opened somewhere
 --- !u!4 &1962194718
 Transform:
   m_ObjectHideFlags: 0
@@ -65934,6 +65958,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 341
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1962194719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962194716}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d553dd5c9e124c4db6b43f92995a8c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infoText: 
+  messagelookedat: 0
 --- !u!1 &1963177632
 GameObject:
   m_ObjectHideFlags: 0
